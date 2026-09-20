@@ -120,11 +120,11 @@ function initScrollSpy() {
    -------------------------------------------------------------------------- */
 const PROJECT_DATA = {
   gangsta: {
-    title: 'GANGSTA',
+    title: 'THE GANGSTA',
     tagline: 'SHORT FILM · ACTION COMEDY',
     format: 'Short Film (Shot on iPhone)',
     role: 'Writer · Actor',
-    poster: 'assets/images/poster-gangsta.svg',
+    poster: 'assets/images/poster-gangsta.jpg',
     synopsis: 'An intense yet comedic clash of territorial egos where three rival crews—The Seniors, The Mass, and The Dancer—suddenly collide in a high-stakes standoff. As verbal jabs and physical intimidation escalate, they confront a surprising shared predicament that flips their conflict on its head.',
     specs: {
       format: 'Short Film',
