@@ -252,7 +252,7 @@ function initContactForm() {
     const subject = encodeURIComponent(`Filmmaking Collaboration Inquiry - from ${name} (${role})`);
     const body = encodeURIComponent(`Hi Sujash,\n\n${message}\n\nBest regards,\n${name}\n${role}`);
 
-    const mailtoUrl = `mailto:?subject=${subject}&body=${body}`;
+    const mailtoUrl = `mailto:lsujash@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoUrl;
 
     const contactModal = document.getElementById('contactModal');
