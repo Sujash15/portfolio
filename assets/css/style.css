@@ -1708,6 +1708,38 @@ section {
   line-height: 1.65;
 }
 
+/* Contact Identity Badge */
+.contact-profile-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: rgba(212, 175, 55, 0.06);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-md);
+  padding: 12px 28px;
+  margin: 0 auto 26px auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.contact-person-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: var(--text-pure);
+  text-transform: uppercase;
+}
+
+.contact-person-role {
+  font-family: var(--font-display);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--gold-vibrant);
+  text-transform: uppercase;
+}
+
 .contact-actions {
   display: flex;
   align-items: center;
@@ -1719,16 +1751,23 @@ section {
 
 .contact-channels-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   border-top: 1px solid var(--border-subtle);
   padding-top: 36px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
+  .contact-channels-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 520px) {
   .contact-channels-grid {
     grid-template-columns: 1fr;
-    gap: 14px;
+    gap: 12px;
   }
 }
 
