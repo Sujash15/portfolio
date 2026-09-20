@@ -2,7 +2,7 @@
 
 # Sujash — Filmmaker Portfolio
 
-A bespoke, high-end personal filmmaker portfolio website for **Sujash** — Director, Screenplay Writer, and Dialogue Writer with 2 years of experience in Tamil and Indian cinema.
+A bespoke, high-end personal filmmaker portfolio website for **Sujash** — Director, Screenplay Writer, and Dialogue Writer with 2 years of experience in Tamil cinema.
 
 ---
 
