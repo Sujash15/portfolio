@@ -139,7 +139,7 @@ const PROJECT_DATA = {
     tagline: 'SHORT FILM · ACTION THRILLER',
     format: 'Short Film (Shot on iPhone)',
     role: 'Writer · Actor',
-    poster: 'assets/images/poster-sarguna.svg',
+    poster: 'assets/images/poster-sarguna.jpg',
     synopsis: 'A gripping action-thriller ignited when an intense conflict with an influential local syndicate boss sparks an impending gang retribution. The narrative centers on a fiercely protective sister, Sarguna, who steps into the line of fire to defend her brother against insurmountable odds.',
     specs: {
       format: 'Short Film',
